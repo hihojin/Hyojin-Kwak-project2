@@ -1,0 +1,72 @@
+.entireGame {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    position: relative;
+    top: 6em;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.normalBoardContainer {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 3em;
+    justify-content: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 3px;
+    /* prevents highlighting text when user double clicks */
+    user-select: none; 
+}
+
+#gray {
+    background-color: #787c7e;
+    color: white;
+}
+
+#green {
+    background-color: #6aaa64;
+    color: white;
+}
+
+#yellow {
+    background-color: #c9b458;
+    color: white;
+}
+.default {
+    background-color: white;
+}
+
+.messagePrompt {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.reset {
+    width: fit-content;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+}
+
+.reset:hover {
+    background-color: rgb(247, 247, 231);
+}
+

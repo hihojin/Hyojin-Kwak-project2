@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+}
+
+.ruleTitle {
+    font-weight: bold;
+    font-size: large;
+}
+
+.containerRule {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    top: 6em;
+}
+
+.flexRuleBox {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.boxContainer {
+    display: flex;
+    margin-left: 12px;
+}
+
+.box {
+    width: 20px;
+    height:fit-content;
+    border: 2px solid gray;
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.box:nth-child(1) {
+    background-color: #6aaa64;
+    color: white;
+}
+
+.box:nth-child(3) {
+    background-color: #c9b458;
+    color: white;
+}
+
+.box:nth-child(5) {
+    background-color: #787c7e;
+    color: white;
+}
